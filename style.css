@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.header {
+    background-color: #016A70;
+    height: 500px;
+    padding-top: 20px;
+    overflow-y: hidden;
+}
+.navbar {
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+}
+.pluto {
+    margin: auto;
+}
+.logo {
+    color: #016A70;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+#logo {
+    color: gray;
+    font-weight: 300;
+    font-size: large;
+    margin: 25px;
+    text-decoration: none;
+}
+#logo:hover {
+    color: #016A70;
+}
+.btn {
+    width: 8%;
+    background-color: #016A70;
+    margin: 5px;
+    margin-right: 15px;
+    border-radius: 8px;
+    text-align: center;
+    transition: .5s;
+    padding: 8px, 20px, 8px, 20px;
+}
+.btn:hover {
+    background-color: gray;
+}
+.reg {
+    margin-top: 9px;
+}
+#text {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.earth {
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.home-content {
+    height: 60%;
+    width: 48%;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.home-content h3 {
+    color: white;
+}
+.home-content h2 {
+    margin-top: 8px;
+    color: #FFFFDD;
+}
+.home-content p{
+    color: white;
+    margin-top: 8px;
+}
+.view {
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 120px;
+    text-align: center;
+    padding: 8px, 20px, 8px, 20px;
+    margin-top: 25px;
+    transition: .5s;
+}
+.mars {
+    margin-top: 4px;
+}
+.view:hover {
+    background-color: gray;
+}
+.data {
+    padding-top: 32px;
+    text-align: center;
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+img {
+    margin-top: 56px;
+    margin-right: 8px;
+    height: 48%;
+}
+.service{
+    margin-top: 80px;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    align-items: center;
+}
+.boxw{
+    margin-top: 40px;
+}
+.boxw h2{
+    margin-top: 16px;
+}
+.boxa{
+    height: 180px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 8px;
+    text-align: center;
+    width: 31%;
+}
+.boxa img{
+    height: 48px;
+}
+.boxcard{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 30%;
+    margin-left: 900px;
+    box-shadow: 3px 3px grey, -1em 0 .4em grey;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+  .mySlides img {
+    width: 100%;
+    height: 50vh;
+  }
+
+
+ .image-team {
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center; */
+    padding: 30px; 
+    width: 100%;
+  }
+  
+  .image-team img {
+    width: 15vw;
+    /* margin-left: 200px;
+    margin-right: 100px; */
+    height: 20vw;
+    border: 2px solid #767171;
+    
+    box-shadow: 0px 0px 40px #f0dfdf;
+    margin-bottom: 6vh;
+    border-radius: 10px;
+
+  }
+  .image-team img:hover{
+    box-shadow: 0px 0px 40px #645c5c;
+  }
+  .footer-container
+  {
+    width: 100%;
+    height: 60vh;
+  background-color: rgb(166, 172, 172);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(footer.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 0;
+  }
+  .footer-content
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 0;
+  }
+  .contact
+  {
+    margin: auto;
+  }
+ .contact h2
+{
+    font-size: 4vw;
+    color: #071a41;
+    overflow-y: hidden;
+   
+}
+#content p{
+    font-weight: bold;
+    font-size: 1.2vw;
+   
+    
+}
+.footer-img
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5vw;
+    gap: 5vw;
+  
+}
+#image
+{
+    width: 5vw;
+ 
+}
+#image img{
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+    transition: all .3s ;
+}
+#image img:hover{
+    scale: 1.1;
+}
+.copyright-container
+{
+    margin: auto;
+}
+ .copyright-container p{
+    font-weight: bold;
+ user-select: none;
+ }
+.team-container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #cac1c1;
+    align-items: center;
+}
+.team-heading h2
+{
+   font-size: 4vw;
+   color: #071a41;
+
+}
+
+  
